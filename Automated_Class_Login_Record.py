@@ -8,7 +8,7 @@ chrome_dir = r'"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe
 
 # Start Google Chrome and point to URL
 chrome = Application(backend='uia')
-chrome.start(chrome_dir + ' --force-renderer-accessibility --start-maximized ' 'https://uoguelph.adobeconnect.com/engg2450s18/?OWASP_CSRFTOKEN=987bced95dc9706a62cba7758986149cbc5d383f8312a4a7c62bea9a73dca5ba')
+chrome.start(chrome_dir + ' --force-renderer-accessibility --start-maximized ' '[REDACTED-URL]')
 
 # Sleep for five seconds waiting for connection
 time.sleep(5)
