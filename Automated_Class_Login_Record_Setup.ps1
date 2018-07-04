@@ -1,7 +1,6 @@
 $File = "Automated_Class_Login_Record.exe"
 
 Write-Output "Searching for $File"
-
 $FilePath = Get-ChildItem -Filter $File -Recurse -ErrorAction SilentlyContinue -Force | % { $_.FullName } | Select-Object -First 1
 
 if ($FilePath -ne $null) {
