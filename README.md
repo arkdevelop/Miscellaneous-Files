@@ -6,3 +6,6 @@ Python script to automatically open Google Chrome, point to the school's online 
 
 <h3>Automated_Class_Login_Record_Setup.ps1</h3>
 Powershell script to create the scheduled task to run Automated_Class_Login_Record.py after it's converted to an .exe every Tuesday/Thursday at 11:30am
+
+<h3>AD_Import.ps1</h3>
+Powershell script to import users from a .csv file into Active Directory
